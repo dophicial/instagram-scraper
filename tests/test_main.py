@@ -1,9 +1,9 @@
-import pathlib
 import sys
+from pathlib import Path
 
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from instagram_scraper.main import main
+from instagram_scraper.main import main  # noqa: E402
 
 
 def test_main(capsys):

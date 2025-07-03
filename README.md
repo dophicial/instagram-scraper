@@ -14,10 +14,10 @@ instagram-scraper/
     └── test_main.py
 ```
 
-Run the sample code:
+Run the sample code (using the source directory on ``PYTHONPATH``):
 
 ```bash
-python -m instagram_scraper.main
+PYTHONPATH=src python -m instagram_scraper.main
 ```
 
 Run the tests with:
